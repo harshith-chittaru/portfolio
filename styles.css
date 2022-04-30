@@ -149,4 +149,62 @@ background: #212121;
     }
 
 }
+@media(max-width: 400px) {
+    .hero,
+    .hero{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: #edf2fd;
+    }
+    .logo{
+        width: 80px;
+        margin-left: 8%;
+    }
+    nav{
+        display: flex;
+        width: 50%;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .detel h1{
+        font-size: 25px;
+        color: #212121;
+        margin-bottom:10px ;
+    }
+    .image{
+        width: 25px;
+        height: 50%;
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+            }
+    .image img{
+        height: 50%;
+        position: absolute;
+        left: 10px;
+        bottom: 425px;
+        transform: translate(100%);
+        transition: bottom 1s, left 1s;
+    }
+    .image:hover .boy{
+        left: 20%;
+    }
+    .image,
+    .image {
+        width: 80px;
+    }
+
+}
 
