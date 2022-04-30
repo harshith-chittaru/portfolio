@@ -91,7 +91,7 @@ background: #212121;
     justify-content: space-around;
     display: flex;
 }
-@media(max-width: 884px) {
+@media(max-width: 600px) {
     .hero,
     .hero{
         position: relative;
