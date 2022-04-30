@@ -125,13 +125,6 @@ background: #212121;
         color: #212121;
         margin-bottom:10px ;
     }
-    .image{
-        width: 50px;
-        height: 50%;
-        position: absolute;
-        bottom: 0;
-        right: 100px;
-            }
 }
 @media(max-width: 400px) {
     .hero,
@@ -167,12 +160,5 @@ background: #212121;
         color: #212121;
         margin-bottom:10px ;
     }
-    .image{
-        width: 25px;
-        height: 50%;
-        position: absolute;
-        bottom: 20px;
-        left: 100px;
-            }
 }
 
