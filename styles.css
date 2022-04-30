@@ -132,22 +132,6 @@ background: #212121;
         bottom: 0;
         right: 100px;
             }
-    .image img{
-        height: 50%;
-        position: absolute;
-        left: 50%;
-        bottom: 425px;
-        transform: translate(-50%);
-        transition: bottom 1s, left 1s;
-    }
-    .image:hover .boy{
-        left: 10%;
-    }
-    .image,
-    .image {
-        width: 50px;
-    }
-
 }
 @media(max-width: 400px) {
     .hero,
@@ -190,21 +174,5 @@ background: #212121;
         bottom: 20px;
         left: 100px;
             }
-    .image img{
-        height: 50%;
-        position: absolute;
-        left: 10px;
-        bottom: 425px;
-        transform: translate(100%);
-        transition: bottom 1s, left 1s;
-    }
-    .image:hover .boy{
-        left: 20%;
-    }
-    .image,
-    .image {
-        width: 80px;
-    }
-
 }
 
